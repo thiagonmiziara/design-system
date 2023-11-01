@@ -8,6 +8,13 @@ export default {
   args: {
     children: <Text>Testando o elemento Box</Text>,
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
@@ -18,5 +25,3 @@ export const CustomTag: StoryObj<BoxProps> = {
     as: 'main',
   },
 }
-
-// TODO: rodar o npm run dev no projeto react e no storybook
