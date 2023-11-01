@@ -74,5 +74,3 @@ export const Disabled: StoryObj<ButtonProps> = {
     disabled: true,
   },
 }
-
-// TODO: rodar o npm run dev no projeto react e no storybook

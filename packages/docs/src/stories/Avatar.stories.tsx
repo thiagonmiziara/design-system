@@ -25,5 +25,3 @@ export const WithFallback: StoryObj<AvatarProps> = {
     src: undefined,
   },
 }
-
-// TODO: rodar o npm run dev no projeto react e no storybook

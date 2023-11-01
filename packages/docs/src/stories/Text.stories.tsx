@@ -42,5 +42,3 @@ export const CustomTag: StoryObj<TextProps> = {
     as: 'strong',
   },
 }
-
-// TODO: rodar o npm run dev no projeto react e no storybook
